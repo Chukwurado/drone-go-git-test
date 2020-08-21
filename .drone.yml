@@ -1,9 +1,10 @@
 kind: pipeline
 name: default
+type: docker
 
 workspace:
-  base: /go
-  path: src/github.com/yourname/go-drone-hello-world
+  base: "/go"
+  path: "src/github.com/chukwurado/go-drone-hello-world"
 
 steps:
   - name: report
